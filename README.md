@@ -17,10 +17,71 @@ This repository contains the lab exercises performed for the "Backing Up and Res
 
 <h2>Project walk-through:</h2>
 <p align="left">
-Performed a network scan using nmap 192.168.56.0/24 to identify active hosts, successfully <br/> confirming the presence of the Kioptrix 1 virtual machine on the local network. <br/><br/>
-  <img src="Screenshot 2025-04-17 175330.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+TEXT <br/><br/>
+  <img src="Screenshot 2025-04-17 144313.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <br/>
+<p align="left">
+TEXT <br/><br/>
+  <img src="Screenshot 2025-04-17 144322.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <br/>
+  <p align="left">
+TEXT <br/><br/>
+  <img src="Screenshot 2025-04-17 144331.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <br/>
+    <p align="left">
+TEXT <br/><br/>
+  <img src="Screenshot 2025-04-17 144341.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <br/>
+      <p align="left">
+TEXT <br/><br/>
+  <img src="Screenshot 2025-04-17 144349.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <br/>
+        <p align="left">
+TEXT <br/><br/>
+  <img src="Screenshot 2025-04-17 144401.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <br/>
+          <p align="left">
+TEXT <br/><br/>
+  <img src="Screenshot 2025-04-17 144410.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <br/>
+            <p align="left">
+TEXT <br/><br/>
+  <img src="Screenshot 2025-04-17 144416.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <br/>
+              <p align="left">
+TEXT <br/><br/>
+  <img src="Screenshot 2025-04-17 144425.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <br/>
+                <p align="left">
+TEXT <br/><br/>
+  <img src="Screenshot 2025-04-17 144434.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <br/>
+                  <p align="left">
+TEXT <br/><br/>
+  <img src="Screenshot 2025-04-17 144444.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <br/>
+                    <p align="left">
+TEXT <br/><br/>
+  <img src="Screenshot 2025-04-17 144458.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <br/>
+                      <p align="left">
+TEXT <br/><br/>
+  <img src="Screenshot 2025-04-17 144506.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <br/>
+                        <p align="left">
+TEXT <br/><br/>
+  <img src="Screenshot 2025-04-17 144513.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <br/>
+                          <p align="left">
+TEXT <br/><br/>
+  <img src="Screenshot 2025-04-17 144521.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <br/>
+                            <p align="left">
+TEXT <br/><br/>
+  <img src="Screenshot 2025-04-17 144528.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   <br/>
 
+                              
 <h2>Write Up</h2>
 
 <p><u> Performing Backups and Restoring Data </u></p>

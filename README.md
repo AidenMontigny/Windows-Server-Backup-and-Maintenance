@@ -21,11 +21,11 @@ Executed the dism /Online /Cleanup-Image /Restorehealth command to initiate a sy
   <img src="Screenshot 2025-04-19 144313.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   <br/>
 <p align="left">
-an the sfc /scannow command to initiate the System File Checker tool, which scans all <br/> protected system files and replaces corrupted or missing files with known good versions from the Windows cache. <br/><br/>
+an the sfc /scannow command to initiate the System File Checker tool, which scans all <br/> protected system files and replaces corrupted or missing files with known good versions <br/> from the Windows cache. <br/><br/>
   <img src="Screenshot 2025-04-19 144322.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   <br/>
   <p align="left">
-Executed the chkdsk C: /f command to check the file system and file system metadata on <br/> the C: drive for logical errors. The /f parameter ensures that any detected issues are automatically fixed. <br/><br/>
+Executed the chkdsk C: /f command to check the file system and file system metadata on <br/> the C: drive for logical errors. The /f parameter ensures that any detected issues are <br/> automatically fixed. <br/><br/>
   <img src="Screenshot 2025-04-19 144331.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   <br/>
     <p align="left">
@@ -33,7 +33,7 @@ Restarted the system to complete the disk error-checking process initiated by th
   <img src="Screenshot 2025-04-19 144341.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   <br/>
       <p align="left">
-Used Event Viewer to verify the results of the chkdsk operation by reviewing logs under <br/> Wininit. This step confirms whether file system repairs were successfully completed during system startup. <br/><br/>
+Used Event Viewer to verify the results of the chkdsk operation by reviewing logs under <br/> Wininit. This step confirms whether file system repairs were successfully completed during <br/> system startup. <br/><br/>
   <img src="Screenshot 2025-04-19 144349.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   <br/>
         <p align="left">
@@ -53,7 +53,7 @@ Installed Windows Server Backup to enable efficient backup and recovery manageme
   <img src="Screenshot 2025-04-19 144425.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   <br/>
                 <p align="left">
-Shared the Backups file and provided the network path for easy access and management of backup <br/> files across the network. <br/><br/>
+Shared the Backups file and provided the network path for easy access and management of <br/> backup files across the network. <br/><br/>
   <img src="Screenshot 2025-04-19 144434.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   <br/>
                   <p align="left">
@@ -73,7 +73,7 @@ Initiated the Recovery Wizard and selected the Special Customers Montigny file f
   <img src="Screenshot 2025-04-19 144513.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   <br/>
                           <p align="left">
-Confirmed the successful completion of the recovery process, with the Special Customers Montigny <br/> file restored to its original location. <br/><br/>
+Confirmed the successful completion of the recovery process, with the Special Customers <br/> Montigny file restored to its original location. <br/><br/>
   <img src="Screenshot 2025-04-19 144521.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   <br/>
                             <p align="left">

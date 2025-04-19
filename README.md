@@ -17,67 +17,67 @@ This repository contains the lab exercises performed for the "Backing Up and Res
 
 <h2>Project walk-through:</h2>
 <p align="left">
-Executed the dism /Online /Cleanup-Image /Restorehealth command to initiate a system image repair using Deployment Image Servicing and Management (DISM).  <br/><br/>
+Executed the dism /Online /Cleanup-Image /Restorehealth command to initiate a system <br/> image repair using Deployment Image Servicing and Management (DISM).  <br/><br/>
   <img src="Screenshot 2025-04-19 144313.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   <br/>
 <p align="left">
-an the sfc /scannow command to initiate the System File Checker tool, which scans all protected system files and replaces corrupted or missing files with known good versions from the Windows cache. <br/><br/>
+an the sfc /scannow command to initiate the System File Checker tool, which scans all <br/> protected system files and replaces corrupted or missing files with known good versions from the Windows cache. <br/><br/>
   <img src="Screenshot 2025-04-19 144322.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   <br/>
   <p align="left">
-Executed the chkdsk C: /f command to check the file system and file system metadata on the C: drive for logical errors. The /f parameter ensures that any detected issues are automatically fixed. <br/><br/>
+Executed the chkdsk C: /f command to check the file system and file system metadata on <br/> the C: drive for logical errors. The /f parameter ensures that any detected issues are automatically fixed. <br/><br/>
   <img src="Screenshot 2025-04-19 144331.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   <br/>
     <p align="left">
-Restarted the system to complete the disk error-checking process initiated by the chkdsk command, as certain repairs require a reboot to be applied successfully. <br/><br/>
+Restarted the system to complete the disk error-checking process initiated by the chkdsk <br/> command, as certain repairs require a reboot to be applied successfully. <br/><br/>
   <img src="Screenshot 2025-04-19 144341.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   <br/>
       <p align="left">
-Used Event Viewer to verify the results of the chkdsk operation by reviewing logs under Wininit. This step confirms whether file system repairs were successfully completed during system startup. <br/><br/>
+Used Event Viewer to verify the results of the chkdsk operation by reviewing logs under <br/> Wininit. This step confirms whether file system repairs were successfully completed during system startup. <br/><br/>
   <img src="Screenshot 2025-04-19 144349.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   <br/>
         <p align="left">
-Reviewed the results in Event Viewer to validate system diagnostics and confirm successful execution of maintenance tasks such as chkdsk. <br/><br/>
+Reviewed the results in Event Viewer to validate system diagnostics and confirm successful <br/> execution of maintenance tasks such as chkdsk. <br/><br/>
   <img src="Screenshot 2025-04-19 144401.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   <br/>
           <p align="left">
-Created the Special Customers Montigny folder as part of the project setup, with plans for later recovery during the process. <br/><br/>
+Created the Special Customers Montigny folder as part of the project setup, with plans for <br/> later recovery during the process. <br/><br/>
   <img src="Screenshot 2025-04-19 144410.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   <br/>
             <p align="left">
-Added a file containing the names of the Special Customers to the Special Customers Montigny folder, preparing it for later recovery during the project. <br/><br/>
+Added a file containing the names of the Special Customers to the Special Customers Montigny <br/> folder, preparing it for later recovery during the project. <br/><br/>
   <img src="Screenshot 2025-04-19 144416.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   <br/>
               <p align="left">
-Installed Windows Server Backup to enable efficient backup and recovery management for the server environment. <br/><br/>
+Installed Windows Server Backup to enable efficient backup and recovery management for the <br/> server environment. <br/><br/>
   <img src="Screenshot 2025-04-19 144425.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   <br/>
                 <p align="left">
-Shared the Backups file and provided the network path for easy access and management of backup files across the network. <br/><br/>
+Shared the Backups file and provided the network path for easy access and management of backup <br/> files across the network. <br/><br/>
   <img src="Screenshot 2025-04-19 144434.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   <br/>
                   <p align="left">
-Confirmed the successful completion of the backup process, ensuring that all selected data was securely stored for recovery purposes.<br/><br/>
+Confirmed the successful completion of the backup process, ensuring that all selected data was <br/> securely stored for recovery purposes.<br/><br/>
   <img src="Screenshot 2025-04-19 144444.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   <br/>
                     <p align="left">
-Verified that the Special Customers Montigny file was moved to the Recycle Bin, indicating it was flagged for potential recovery. <br/><br/>
+Verified that the Special Customers Montigny file was moved to the Recycle Bin, indicating it was <br/> flagged for potential recovery. <br/><br/>
   <img src="Screenshot 2025-04-19 144458.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   <br/>
                       <p align="left">
-Confirmed the permanent deletion of the Special Customers Montigny file from the Recycle Bin, ensuring it was fully removed from the system. <br/><br/>
+Confirmed the permanent deletion of the Special Customers Montigny file from the Recycle Bin, <br/> ensuring it was fully removed from the system. <br/><br/>
   <img src="Screenshot 2025-04-19 144506.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   <br/>
                         <p align="left">
-Initiated the Recovery Wizard and selected the Special Customers Montigny file for recovery, preparing to restore it to its original location. <br/><br/>
+Initiated the Recovery Wizard and selected the Special Customers Montigny file for recovery, <br/> preparing to restore it to its original location. <br/><br/>
   <img src="Screenshot 2025-04-19 144513.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   <br/>
                           <p align="left">
-Confirmed the successful completion of the recovery process, with the Special Customers Montigny file restored to its original location. <br/><br/>
+Confirmed the successful completion of the recovery process, with the Special Customers Montigny <br/> file restored to its original location. <br/><br/>
   <img src="Screenshot 2025-04-19 144521.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   <br/>
                             <p align="left">
-Verified that the Special Customers Montigny file was successfully restored and is now back in the Documents folder. <br/><br/>
+Verified that the Special Customers Montigny file was successfully restored and is now back in <br/> the Documents folder. <br/><br/>
   <img src="Screenshot 2025-04-19 144528.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   <br/>
 
